@@ -8,7 +8,7 @@
     "start": "NODE_ENV=prod forever start ./bin/www"
   },
   "dependencies": {
-    "asapp": "^1.2.4",
+    "asapp": "^2.0.0",
     "body-parser": "~1.17.1",
     "compression": "^1.7.1",
     "consign": "^0.1.6",
