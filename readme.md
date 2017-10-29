@@ -145,6 +145,30 @@ Libs is a symlink for bower_components.
 
 This directory is serve on /static path.
 
-#### Donations 
+### How to use
+
+1.- Clone this repo using one of below commands:
+
+`git clone https://github.com/fdorantesm/express-assap`
+
+`git clone git@github.com:fdorantesm/express-assap.git`
+
+2.- Install dependencies
+
+`npm install`
+
+3.- `npm run-script local` or `node bin/www`
+
+<pre>
+"scripts": {
+    "local": "nodemon ./bin/www --config .nodemon",
+    "test": "NODE_ENV=test forever start bin/www",
+    "start": "NODE_ENV=prod forever start bin/www"
+  },
+</pre>
+
+* Install nodemon (or edit package.json) to use npm scripts (optional):
+
+### Donations 
 
 Paypal: fdorantesm@gmail.com
