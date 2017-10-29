@@ -1,12 +1,14 @@
 {
-  "name": "morada-ui",
-  "version": "0.0.1",
+  "name": "express-asapp",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./app/bin/www"
+    "local": "nodemon ./bin/www --config .nodemon",
+    "test": "NODE_ENV=test forever start ./bin/www",
+    "start": "NODE_ENV=prod forever start ./bin/www"
   },
   "dependencies": {
-    "asapp": "^2.0.0",
+    "asapp": "^1.2.4",
     "body-parser": "~1.17.1",
     "compression": "^1.7.1",
     "consign": "^0.1.6",
