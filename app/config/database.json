@@ -1,0 +1,24 @@
+{
+	"data": {
+		"local": {
+			"base": "morado",
+			"host": "localhost"
+		},
+
+		"test": {
+			"base": "asapp",
+			"host": "test.server.com",
+			"port": 27017,
+			"user": "admin",
+			"pass": "bubopbububop"
+		},
+
+		"prod": {
+			"base": "asapp",
+			"host": "prod.server.com",
+			"port": 27017,
+			"user": "admin",
+			"pass": "bubopbububop"
+		}
+	}
+}

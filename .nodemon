@@ -1,0 +1,7 @@
+{
+	"verbose": true,
+	"ignore": [
+		"app/locales/*",
+		"app/logs/*"
+	]
+}
