@@ -4,6 +4,8 @@ This is a base express asapp project, this project uses asapp as structure frame
 
 Feel free to remove modules that you will not to use.
 
+#
+
 #### Dependencies
 
 <pre>
@@ -29,6 +31,8 @@ Feel free to remove modules that you will not to use.
     "winston": "^2.4.0"
   }
 </pre>
+
+#
 
 #### Project structure 
 
@@ -78,6 +82,8 @@ Feel free to remove modules that you will not to use.
     └── libs -> ../bower_components
 
 </pre>
+
+#
 
 ### Application
 
@@ -131,11 +137,15 @@ This directory could be contains some scripts to serve files, deploy the applica
 
 By default this folder contains a script named www that run the app.
 
+#
+
 ### Public
 
 This directory contains all the public resources like profile images, documents, uploads, downloads or whatever file.
 
 This directory is serve on / path.
+
+#
 
 ### Static
 
@@ -144,6 +154,8 @@ This directory contains all the static resources to use in frontend like styles,
 Libs is a symlink for bower_components.
 
 This directory is serve on /static path.
+
+#
 
 ### How to use
 
@@ -169,6 +181,15 @@ This directory is serve on /static path.
 
 * Install nodemon (or edit package.json) to use npm scripts (optional):
 
+#
+
 ### Donations 
 
 Paypal: fdorantesm@gmail.com
+
+#
+
+### Credits
+
+* Winston logger by [@vikas5914](https://github.com/vikas5914) 
+https://gist.github.com/vikas5914/cf568748ac89446e19ecd5e2e6900443
